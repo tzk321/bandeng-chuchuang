@@ -1,0 +1,37 @@
+板凳出窗 / CHAIR RIOT 1.0.0 · 图标、安装与同步回执
+时间：2026-10-17 23:58（手机本地时间）
+
+手机安装包：
+/storage/emulated/0/Download/板凳出窗/板凳出窗-1.0.0-arm64.apk
+大小：43,179,386 字节，约 41.2 MiB。
+SHA-256：1089a39a8e98995fa8fc139afd995a316e86b10426b233bc2942464c1748b569
+
+安装：已获用户明确授权。pm install -r -S 流式安装返回 Success。
+包名：org.chairriot.nightshift
+版本：1.0.0（versionCode=1）
+架构：arm64-v8a
+Android要求：minSdk24 / targetSdk36
+签名：本地开发调试签名，非商店发行签名；APK v2/v3 已验证，16KB对齐通过。
+签名证书SHA-256：8f43a8127fe9a541725a669a3e25ab335a13dbb5336723190af4aa8a7a6fd15b
+首次安装时间：2026-10-17 23:56:48。
+安装后启动：am start -W 返回 Status: ok；前台确认为 org.chairriot.nightshift/com.godot.game.GodotApp；OCR识别到 CHAIR RIOT / 夜班、开始夜班、玩法 / 操作、低特效，已进入原生标题界面。
+未宣称：长时间真机试玩、真实FPS、物理多点触控手感等仍未完整验收。桌面/Linux自动测试不代替手机手感。
+
+图标：原创手写 SVG，青绿夜窗 + 橙色飞椅 + 玻璃碎片。
+不是只放一张图片：已接入 Android 传统及前景/背景自适应 launcher 图标、Windows EXE 多尺寸ICO，再从同一工程重新导出。
+手机同目录有：板凳出窗-图标.svg / 板凳出窗-图标.png / 板凳出窗-图标.ico。
+
+电脑同步（D盘，不是C盘）：
+D:\tzk-games\chair-riot\android\ChairRiot-arm64.apk
+D:\tzk-games\chair-riot\windows\Launch.vbs （启动电脑游戏，exe与pck同目录）
+D:\tzk-games\chair-riot\icons\icon.svg
+D:\tzk-games\chair-riot\icons\icon-512.png
+D:\tzk-games\chair-riot\icons\chair-riot.ico
+D:\tzk-games\chair-riot\source\project.godot
+桌面已有“板凳出窗”快捷方式，仍指向同一个Windows交付。
+
+双方校验：电脑APK、手机临时APK、真实Download APK的SHA-256一致（如上）。
+图标接入后回归：Linux 31 checks / 0 failures；Windows 31 checks / 0 failures；Windows实际窗口截图成功、退出码0。
+原唯一Codex实现worker已结束（rc=0）才修改图标和重建；没有另启实现worker，没有改全局SSH配置。
+
+当前最终校验以电脑更新后的 result.md / artifact-manifest.json / SHA256SUMS.txt 及本回执为准；原worker报告里图标更新前的hash不能混用。

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>板凳出窗 · CHAIR RIOT</title>
+  <desc>原创程序绘制图标：暖橙色板凳冲破青绿色夜窗，碎玻璃和速度线。2026-10-17。</desc>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#143b50"/>
+      <stop offset="1" stop-color="#081723"/>
+    </linearGradient>
+    <linearGradient id="pane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#286a78"/>
+      <stop offset="1" stop-color="#123648"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffdb83"/>
+      <stop offset="1" stop-color="#f59448"/>
+    </linearGradient>
+  </defs>
+  <!-- Full bleed background; no transparent corners, so launchers can apply their own mask. -->
+  <rect width="512" height="512" fill="url(#night)"/>
+  <path d="M0 395L395 0H512V118L118 512H0Z" fill="#1d5363" opacity="0.25"/>
+  <path d="M32 440H480" stroke="#27606c" stroke-width="4"/>
+  <!-- Neon window, deliberately behind the chair. -->
+  <rect x="116" y="93" width="280" height="310" rx="24" fill="#061922" stroke="#0b202b" stroke-width="24"/>
+  <rect x="116" y="93" width="280" height="310" rx="24" fill="url(#pane)" stroke="#6be0cf" stroke-width="12"/>
+  <path d="M136 110H255V205L219 194L199 227L162 208L136 255Z" fill="#67cec7" opacity="0.12"/>
+  <path d="M256 98V169M256 345V399M121 249H173M343 249H391" fill="none" stroke="#80ece0" stroke-width="9"/>
+  <path d="M304 112L341 153L329 189M383 301L350 321L367 362M140 316L168 327L159 364" fill="none" stroke="#7cf1df" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Warm impact ring and compact flying glass inside the adaptive icon safe area. -->
+  <path d="M180 148L216 164L248 132L271 164L319 149L322 188L366 208L342 240L367 277L325 292L328 335L285 330L254 365L226 334L183 346L180 304L143 286L165 251L145 218L184 200Z" fill="#ffbc66" opacity="0.16"/>
+  <path d="M337 135L364 114L358 153Z" fill="#dbfff5"/>
+  <path d="M394 189L410 218L374 209Z" fill="#8ce8d9"/>
+  <path d="M353 347L386 353L369 380Z" fill="#bdfff0"/>
+  <path d="M122 174L151 183L128 204Z" fill="#a8ffea"/>
+  <path d="M121 322L141 345L109 351Z" fill="#82ddce"/>
+  <path d="M172 115L180 139L156 132Z" fill="#f6ffed"/>
+  <!-- Diagonal attack streaks. -->
+  <path d="M102 342L156 310M100 375L181 328M132 401L202 359" fill="none" stroke="#ffbc65" stroke-width="10" stroke-linecap="round"/>
+  <!-- Chair silhouette; dark keyline keeps it readable at launcher size. -->
+  <g transform="translate(258 259) rotate(-24)" stroke="#16242d" stroke-width="16" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-62 -8L-76 112M62 -8L79 112" fill="none" stroke-width="27"/>
+    <path d="M-62 -8L-76 112M62 -8L79 112" fill="none" stroke="#ef9b4b" stroke-width="13"/>
+    <path d="M-71 70H73" fill="none" stroke-width="21"/>
+    <path d="M-71 70H73" fill="none" stroke="#ffc96c" stroke-width="9"/>
+    <path d="M-65 -8V-99Q-65 -112 -50 -112H48Q63 -112 63 -99V-8Z" fill="url(#wood)"/>
+    <path d="M-39 -81H37M-39 -58H37" fill="none" stroke="#c8773d" stroke-width="9"/>
+    <path d="M-81 -23H80L93 11Q95 23 81 23H-82Q-96 23 -93 11Z" fill="#f7ad56"/>
+    <path d="M-72 -13H70" fill="none" stroke="#ffe5a0" stroke-width="8"/>
+  </g>
+  <!-- Two tiny white impact flashes, not typography. -->
+  <path d="M369 268L376 246L383 265L402 272L381 280L374 300L368 280L347 274Z" fill="#fff1c2"/>
+  <path d="M192 129L198 115L202 129L216 133L203 139L198 152L193 140L180 135Z" fill="#fff5cc"/>
+</svg>
